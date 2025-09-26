@@ -14,21 +14,100 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "divider_hFm3am": {
-          "type": "_divider",
-          "name": "t:names.divider",
+        "image_nL9zwt": {
+          "type": "image",
+          "name": "t:names.image",
           "settings": {
-            "thickness": 1,
-            "corner_radius": "square",
-            "width_percent": 100,
+            "link": "",
+            "image_ratio": "adapt",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
             "padding-block-start": 0,
-            "padding-block-end": 0
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "menu_4XiAjt": {
+          "type": "menu",
+          "name": "t:names.menu",
+          "settings": {
+            "menu": "main-menu",
+            "heading": "",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "menu_Q3Vr9c": {
+          "type": "menu",
+          "name": "t:names.menu",
+          "settings": {
+            "menu": "main-menu",
+            "heading": "",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_8KqQQk": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
         "group_tbFfTQ": {
           "type": "group",
           "name": "Email signup",
+          "disabled": true,
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -199,6 +278,7 @@
         "footer_utilities_KRaGcH": {
           "type": "footer-utilities",
           "name": "t:names.footer_utilities",
+          "disabled": true,
           "settings": {
             "divider_thickness": 0,
             "padding-block-start": 12,
@@ -209,7 +289,7 @@
               "type": "_footer-copyright",
               "static": true,
               "settings": {
-                "show_powered_by": true,
+                "show_powered_by": false,
                 "font_size": "0.75rem",
                 "case": "none"
               },
@@ -283,13 +363,16 @@
         }
       },
       "block_order": [
-        "divider_hFm3am",
+        "image_nL9zwt",
+        "menu_4XiAjt",
+        "menu_Q3Vr9c",
+        "text_8KqQQk",
         "group_tbFfTQ",
         "footer_utilities_KRaGcH"
       ],
       "name": "Footer",
       "settings": {
-        "content_direction": "column",
+        "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "center",
         "vertical_alignment": "center",
@@ -303,7 +386,7 @@
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
-        "padding-block-start": 0,
+        "padding-block-start": 50,
         "padding-block-end": 30
       }
     }
